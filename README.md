@@ -9,7 +9,7 @@ Users should be able to:
 -View the optimal layout depending on their device's screen size.
 -See hover states for interactive elements.
 
-## Screeshots
+## Screenshots
 
 ![mobile-design-3-column-card-component](https://user-images.githubusercontent.com/79578822/114726327-94cd9900-9d3d-11eb-9c98-47040189803e.png)
 
