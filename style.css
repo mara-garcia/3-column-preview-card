@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: hsl(0, 0%, 95%);
+}
+
+body {
+    margin: 1em 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* typograhy */
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    margin: .85em 0;
+}
+
+p {
+    line-height: 1.7;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* layout */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section {
+    max-width: 300px;
+    height: 405px;
+    margin: 0 auto;
+    padding: 2.5em;
+}
+
+/* media query layout */
+
+@media (min-width: 900px){
+    .container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .section {
+        height: 55vh;
+        margin: 0;
+        padding: 3em;
+    }
+
+    img {
+        margin: .5em 0;
+    }
+} 
+
+/* sections */
+
+.section-sedans {
+    border-radius: 7px 7px 0 0;
+    background: hsl(31, 77%, 52%)
+}
+
+.section-suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+.section-luxury {
+    border-radius: 0 0 7px 7px;
+    background: hsl(179, 100%, 13%);
+}
+
+/* media query sections */
+
+@media (min-width: 900px) {
+    .section-sedans {
+        border-radius: 7px 0 0 7px;
+        background: hsl(31, 77%, 52%)
+    }
+    
+    .section-luxury {
+        border-radius: 0 7px 7px 0;
+        background: hsl(179, 100%, 13%);
+    }
+}
+
+/* buttons */
+
+.btn {
+    display: inline-block;
+    background: hsl(0, 0%, 95%);
+    width: 10em;
+    height: 3em;
+    margin: 1em 0;
+    border: none;
+    border-radius: 20px;
+    outline: none; 
+    font-family: 'Lexend Deca', sans-serif; 
+    font-weight: 400;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* media query buttons */
+
+@media (min-width: 900px) {
+.btn {
+    margin-top: 7em;
+}
+}
+
+.sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans:hover,
+.sedans:focus {
+    background: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.suvs:hover,
+.suvs:focus {
+    background: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury:hover,
+.luxury:focus {
+    background: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
