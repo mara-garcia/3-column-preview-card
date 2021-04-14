@@ -9,13 +9,13 @@ Users should be able to:
 -View the optimal layout depending on their device's screen size.
 -See hover states for interactive elements.
 
-## Screenshots
+### Screenshots
 
 ![mobile-design-3-column-card-component](https://user-images.githubusercontent.com/79578822/114726327-94cd9900-9d3d-11eb-9c98-47040189803e.png)
 
 ![desktop-design-3-column-card-component](https://user-images.githubusercontent.com/79578822/114726332-972ff300-9d3d-11eb-803b-2ad04c8d6985.png)
 
-## Links
+### Links
 
 Live Site: https://threecolumncard.netlify.app/
 
